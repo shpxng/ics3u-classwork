@@ -1,0 +1,34 @@
+Vending machine from machine perspective
+---------------------------------
+Giving a candy bar
+    - Obtain money from human
+    - Make sure money is legitimate
+    - Determine what candy bar they want
+    - Eject the candy bar that they choose
+    - Give back change if necessary
+    
+There may be conditional branching in the breakdown above in the give back change if necessary line.
+
+The cookie is too big for the glass
+-----------------------------------
+1. Eat half the cookie
+2. Get a bigger glass of milk
+3. An app that breaks cookies in half
+
+The spoon dropped into the gravy
+--------------------------------
+1. Use another spoon to get the spoon
+2. Get a smaller bowl of gravy
+3. A robotic claw that retrieves utensils
+
+People who can't park
+----------------------
+1. Tow the cars away
+2. Have better driving instructors
+3. A software that helps people park
+
+People hogging seats with bags
+-----------------------------
+1. Kicking the people out
+2. Make a place for people to put their bags
+3. A technological seat that ejects bags 
