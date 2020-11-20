@@ -20,3 +20,14 @@ height = int(input("What is the height of the prism in cm? "))
 volume = length * width * height
 
 print(f"The volume of the prism is {volume} cm squared")
+
+# Question 4
+print("Do you just join a Google Meet and mute the teacher? Please answer Yes or No")
+
+answer = input("")
+
+if answer == "Yes" :
+    print("That's probably not a good idea. You will fail and cry")
+
+else: 
+    print("Ok. Good. You deserve cookies")
