@@ -1,7 +1,7 @@
 # Question 1
 colour = input("What is your favourite colour? ")
 
-print(colour, "That's my favourite colour too!")
+print(f"{colour}? That's my favourite colour too!")
 
 # Question 2
 can = int(input("How many cans come in a pack? "))
