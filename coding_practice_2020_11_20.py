@@ -1,21 +1,25 @@
-1.
+# 1.
 # Ask user for favourite color
 colour = input("What is your favourite colour? ")
 
 # Output a message
 print(colour, "That's my favourite colour too!")
 
-2.
+# 2.
 # Ask user for number of cans
 can = int(input("How many cans come in a pack? "))
 
 # Ask user for number of packs
 pack = int(input("How many packs are there? "))
 
-# Display total number of cans
-print("The total number of cans is", can * pack)
+# Calculate total number
+total = can * pack
 
-3.
+# Display total number of cans
+print(f"The total number of cans is {total}")
+
+
+# 3.
 # Ask user for dimensions of a rectangular prism
 length = int(input("What is the length of the prism in cm? "))
 width = int(input("What is the width of the prism in cm? "))
