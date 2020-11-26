@@ -60,6 +60,37 @@ elif month == "January" or month == "March" or month == "May" or month == "July"
 else:
     print("Error. Please enter a month")
 
+# Exercise 39
+
+sound = int(input("Please enter a sound level in decibels: "))
+
+if sound == 40:
+    print("Noise level of a Quiet Room")
+
+elif sound == 70:
+    print("Noise level of an Alarm Clock")
+
+elif sound == 106:
+    print("Noise level of a Gas lawnmower")
+
+elif sound == 130:
+    print("Noise level of a Jackhammer")
+
+elif sound < 40:
+    print("Noise level is less than a Quiet Room")
+
+elif sound > 40:
+    print("Noise level is between a Quiet Room and an Alarm Clock")
+
+elif sound > 70:
+    print("Noise level is between an Alarm Clock and a Gas Lawnmower")
+
+elif sound > 106:
+    print("Noise level is between a Gas Lawnmower and a Jackhammer")
+
+elif sound > 130:
+    print("Noise level is greater than a Jackhammer")
+    
 # Exercise 40
 
 first_side = int(input("Please enter the length of the first side: "))
@@ -183,6 +214,51 @@ if month == "December":
 
 print("Your Zodiac Sign is" , sign)
 
+# Exercise 48
+
+year = int(input("Please enter a year: "))
+
+if year%12 == 4:
+    animal = "rat"
+
+elif year%12 == 5:
+    animal = "ox"
+
+elif year%12 == 6:
+    animal = "tiger"
+
+elif year%12 == 7:
+    animal = "hare"
+
+elif year%12 == 8:
+    animal = "dragon"
+
+elif year%12 == 9:
+    animal = "snake"
+
+elif year%12 == 10:
+    animal = "horse"
+
+elif year%12 == 11:
+    animal = "sheep"
+
+elif year%12 == 0:
+    animal = "monkey"
+
+elif year%12 == 1:
+    animal = "rooster"
+
+elif year%12 == 2:
+    animal = "dog"
+
+elif year%12 == 3:
+    animal = "pig"
+
+else: 
+    print("Invalid year")
+
+print(animal)
+
 # Exercise 49
 
 magnitude = float(input("Please enter an earthquake magnitude: "))
@@ -215,3 +291,46 @@ else:
     descriptor = "meteoric"
 
 print("A" , magnitude, "is a" , descriptor, "earthquake")
+
+# Exercise 51
+
+letter = input("Please enter a letter grade: ")
+letter = letter.upper()
+
+if letter == "F":
+    gpa = "0"
+
+elif letter == "D":
+    gpa = "1.0"
+
+elif letter == "D+":
+    gpa = "1.3"
+
+elif letter == "C-":
+    gpa = "1.7"
+
+elif letter == "C":
+    gpa = "2.0"
+
+elif letter == "C+":
+    gpa = "2.3"
+
+elif letter == "B-":
+    gpa = "2.7"
+
+elif letter == "B":
+    gpa = "3.0"
+
+elif letter == "B+":
+    gpa = "3.3"
+
+elif letter == "A-":
+    gpa = "3.7"
+
+elif letter == "A" or letter == "A+":
+    gpa = "4.0"
+
+else:
+    gpa = "Invalid"
+
+print(f"Your Grade Point Average is {gpa}")
