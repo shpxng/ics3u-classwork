@@ -334,3 +334,87 @@ else:
     gpa = "Invalid"
 
 print(f"Your Grade Point Average is {gpa}")
+
+# hello_name
+
+name = input("Enter name: ")
+
+print(f"Hello {name}!")
+
+# make_abba
+
+str1 = input("Enter a string: ")
+str2 = input("Enter a second string: ")
+
+print(str1 + str2 + str2 + str1)
+
+# make_out_word
+
+out = input("Enter an out string of length 4: ")
+word = input("Enter a word: ")
+
+print(out[0] + out[1] + word + out[2] + out[3])
+
+# extra_end
+
+str = input("Enter a word: ")
+
+last_char = str[-1]
+second_last_char = str[-2]
+
+print(second_last_char + last_char + second_last_char + last_char + second_last_char + last_char)
+
+# without_end
+
+str = input("Enter a string: ")
+
+print(str[1:-1])
+
+# non_start
+
+str1 = input("Enter a string: ")
+str2 = input("Enter a second string: ")
+
+str1_omitted = str1[1:-1] + str1[-1]
+str2_omitted = str2[1:-1] + str2[-1]
+
+print(str1_omitted + str2_omitted)
+
+# left_2
+
+str = input('Enter a string: ')
+
+first_two_char = str[0] + str [1]
+end = str[2:-1] + str [-1]
+
+print(end + first_two_char)
+
+# right_2
+
+str = input("Enter a string: ")
+
+last_two_char = str[-2] + str[-1]
+front = str[0:-2]
+
+print(last_two_char + front)
+
+# ends_ly
+
+str = input("Enter a string: ")
+
+if str[-2] == "l" and str[-1] == "y":
+    print("True")
+
+else:
+    print("False")
+    
+# con_cat
+
+str1 = input("Enter a string: ")
+str2 = input("Enter a second string: ")
+
+if str1[-1] == str2[0]:
+    print(str1[0:-1] + str2)
+
+else:
+    print(str1 + str2)
