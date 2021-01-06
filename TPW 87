@@ -1,9 +1,24 @@
-def center_string(n: str, width: int):
-    if width < len(n):
-        return n
+
+def main():
+    word = input("Enter a string: ")
     
-    spaces = (width - len(n)) // 2
-    result = " " * spaces + n
+    while True:
+        try:
+            width = int(input("Enter the width of the string: "))
+            break
+        except ValueError:
+            print("Invalid")
+
+    centered_string = center_string(word, width)
+
+    print(centered_string)
+
+def center_string(string: str, width: int):
+    if width < len(string):
+        return string
+    
+    spaces = (width - len(string)) // 2
+    result = " " * spaces + string
 
     return result
 
@@ -17,3 +32,4 @@ def tests():
 
 if __name__ == "__main__":
     tests()
+    main()
