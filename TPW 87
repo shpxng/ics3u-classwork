@@ -1,0 +1,19 @@
+def center_string(n: str, width: int):
+    if width < len(n):
+        return n
+    
+    spaces = (width - len(n)) // 2
+    result = " " * spaces + n
+
+    return result
+
+def tests():
+    assert center_string("a", 3) == " a"
+    assert center_string("aa", 4) == " aa"
+    assert center_string("b", 5) == "  b"
+    assert center_string("hello", 11) == "   hello"
+    print("all passed!")
+
+
+if __name__ == "__main__":
+    tests()
